@@ -159,7 +159,7 @@ console.log(removed); // green，只有一个元素的数组
 
 #### indexOf()
 
-返回要查找的元素在数组中的位置，如果没找到则返回1
+返回要查找的元素在数组中的位置，如果没找到则返回 -1
 
 ```js
 let numbers = [1, 2, 3, 4, 5, 4, 3, 2, 1];
@@ -206,7 +206,7 @@ people.find((element, index, array) => element.age < 28) // // {name: "Matt", ag
 
 ### reverse()
 
-顾名思义，将数组元素方向排列
+顾名思义，将数组元素方向反转
 
 ```js
 let values = [1, 2, 3, 4, 5];
